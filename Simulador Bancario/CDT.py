@@ -26,4 +26,3 @@ class CDT:
         nSaldo= self.saldo + nSaldo
         self.saldo= nSaldo
         return "Su saldo mas los intereses es de:" + self.saldo
-    
