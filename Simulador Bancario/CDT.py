@@ -9,6 +9,7 @@ class CDT:
     valorInversion=""
     interesMensual=""
     mesApertura= "" 
+    saldo= ""
     '''----------------------------
     # Metodo
     ----------------------------'''
@@ -17,7 +18,7 @@ class CDT:
         self.saldo = self.saldo+ ""
         return self.saldo
         print ("Su CDT fue actualizado exitosamente") 
-    def ConsultarSaldo(self):
+    def ConsultarSaldo(self, saldo):
         return("Nuevo saldo:",self.saldo)
     def Interes(self, saldo):
         #Aqui va el codigo del metodo

@@ -3,12 +3,12 @@ class CuentaCorriente:
     '''----------------------------
     # Atributos
     ----------------------------'''
-    saldo= 0
+    saldo= ""
     '''----------------------------
     # Metodo
     ----------------------------'''
     def __init__(self):
-        self.saldo=0
+        self.saldo= 200
     def ConsultarSaldo(self):
         #Aqui va el codigo del metodo
         print("Su saldo es:",self.saldo)

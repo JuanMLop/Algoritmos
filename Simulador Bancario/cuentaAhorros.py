@@ -8,7 +8,7 @@ class CuentaAhorros:
     '''----------------------------
     # Metodos
     ----------------------------'''
-    def ConsultarSaldo (self,saldo):
+    def ConsultarSaldo (self):
         # Aqui va el codigo del medoto
         return self.saldo
     def ConsignarValor (self,saldo):
