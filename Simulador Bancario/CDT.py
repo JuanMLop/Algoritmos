@@ -13,7 +13,7 @@ class CDT:
     '''----------------------------
     # Metodo
     ----------------------------'''
-    def ConsignarValor(self):
+    def ConsignarValor(self, saldo):
         #Aqui va el codigo del metodo
         self.saldo = self.saldo+ ""
         return self.saldo
@@ -25,7 +25,5 @@ class CDT:
         nSaldo= self.saldo * 0,0
         nSaldo= self.saldo + nSaldo
         self.saldo= nSaldo
-        return "Su saldo mas los intereses es de:" + self.sald
-    
-    
+        return "Su saldo mas los intereses es de:" + self.saldo
     
