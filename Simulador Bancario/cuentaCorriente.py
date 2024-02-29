@@ -7,20 +7,20 @@ class CuentaCorriente:
     '''----------------------------
     # Metodo
     ----------------------------'''
-    saldo= 0
+    
     def ConsultarSaldo (self):
         # Aqui va el codigo del medoto
         return self.saldo
     
-    def ConsignarValor (self,saldo):
-        nSaldo= self.saldo + ""
+    def ConsignarValor (self, monto):
+        nSaldo= self.saldo + monto
         self.saldo= nSaldo
         # Aqui va el codigo del medoto
-        return "Ingrese nuevo valor" + ""
+        return nSaldo
 
-    def RetirarValor (self,saldo):
-        nSaldo= self.saldo - ""
+    def RetirarValor (self, monto):
+        nSaldo=self.saldo - monto
         self.saldo= nSaldo
         # Aqui va el codigo del medoto
-        return "Retire" + ""
+        return nSaldo
     
