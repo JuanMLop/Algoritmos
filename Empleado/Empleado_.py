@@ -25,6 +25,12 @@ class Empleado:
     '''----------------------------
     # Metodos
     ----------------------------'''
+    def __init__(self, nombre, apellido, sexo, salario):
+        self.nombre = nombre
+        self.apellido =apellido
+        self.sexo = sexo
+        self.salario = salario
+
     def CambiarSalario(self, nuevoSalario):
     # Aqui va el codigo del medoto
         return 0
@@ -70,7 +76,6 @@ class Empleado:
         #Forma 2
         #total= self.SalarioAnual()
         #return (total*19.5)/ 100
-    
 
 
     
